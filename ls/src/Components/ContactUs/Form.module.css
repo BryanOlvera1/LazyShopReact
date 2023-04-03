@@ -1,0 +1,75 @@
+/* Apply Apple-like font and padding to the form */
+form {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    padding: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Style the form inputs */
+  input[type="text"], input[type="email"], textarea {
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+  
+  /* Style the form button */
+  button[type="submit"] {
+    background-color: #007AFF;
+    border: none;
+    
+    border-radius: 100px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+  
+  /* Style the form button on hover */
+  button[type="submit"]:hover {
+    background-color: #0066CC;
+  }
+  body{
+    background-image: url(./contact.webp)no-repeat / cover;
+}
+.gridBox {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    padding: 2rem;
+    display: grid;
+    border-radius: 15px;
+    grid-auto-flow: row dense;
+    grid-gap: 0.2em;
+    background:rgba(49, 49, 54, 0.993);
+    padding: 0.5em;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  
+.contact{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+background-color: rgba(49, 49, 54, 0.993);
+}
+.container__home{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
