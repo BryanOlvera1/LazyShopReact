@@ -4,14 +4,14 @@
         product_id: 1,
         product_title: "MacBook",
         product_price: 1299,
-        product_description: "The MacBook is a sleek and powerful laptop from Apple that has been upgraded to handle more intensive workflow",
+        product_description: "The MacBook is a sleek and powerful laptop from Apple that has been upgraded to handle more intensive workflow.",
         product_image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80"
         },
         {
         product_id: 2,
         product_title: "Tech Kit",
         product_price: 3500,
-        product_description: "This kit includes a phone, MacBook, camera, keyboard, wallet, and glasses",
+        product_description: "This kit includes a phone, MacBook, camera, keyboard, wallet, and glasses.",
         product_image: "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1442&q=80"
         },
         {
@@ -25,7 +25,7 @@
         product_id: 4,
         product_title: "Drone Starter Kit with Camera",
         product_price: 2200,
-        product_description: "Get ready to take to the skies with this drone starter kit! This kit includes a powerful drone with a camera that lets you capture stunning aerial footage",
+        product_description: "Get ready to take to the skies with this drone starter kit! This kit includes a powerful drone with a camera that lets you capture stunning aerial footage.",
         product_image: "https://images.unsplash.com/photo-1524512099866-c65c6bfb2617?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGRyb25lfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
         },
         {
@@ -46,7 +46,7 @@
         product_id: 7,
         product_title: "Custom Steamdeck",
         product_price: 2000,
-        product_description: " Modified steamdeck that can handle any game for the foreseeable future. It comes with 256GB RAM,4TB SSD,upgraded heatsink and Processor",
+        product_description: " Modified steamdeck that can handle any game for the foreseeable future. It comes with 256GB RAM,4TB SSD,upgraded heatsink and Processor.",
         product_image: "https://images.unsplash.com/photo-1669984406671-82bb707253ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RlYW1kZWNrfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
         },
         {
@@ -60,7 +60,7 @@
         product_id: 9,
         product_title: "NES",
         product_price: 1500,
-        product_description: " This retro game console that was one of the first to establish Nintendo as a major gaming company",
+        product_description: " This retro game console that was one of the first to establish Nintendo as a major gaming company.",
         product_image: "https://images.unsplash.com/photo-1591462391941-8e7b33fc4604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1854&q=80"
         },
         {
@@ -81,7 +81,7 @@
         product_id: 12,
         product_title: "Laptop Bag",
         product_price: 475,
-        product_description: " Leather laptop bag that is high quality, it can be used for a laptop or other important items of your choosing",
+        product_description: " Leather laptop bag that is high quality, it can be used for a laptop or other important items of your choosing.",
         product_image: "https://images.unsplash.com/photo-1525103504173-8dc1582c7430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80"
         }
         ]

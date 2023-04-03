@@ -115,7 +115,6 @@ body{
 }
 
 .search-filters input[type="text"]::-webkit-search-cancel-button{
-  
   position: relative;
   right: 4px;
   width: 16px;
