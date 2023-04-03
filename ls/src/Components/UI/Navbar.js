@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import logo from './logo.svg';
 import styled from 'styled-components';
+import logo2 from './logo2.svg'
 
 export default class Navbar extends Component {
     render() {
@@ -9,6 +10,9 @@ export default class Navbar extends Component {
             <NavWrapper className="navbar nav-bar-expand-sm navbar-dark px-sm-5">
                <Link to='/Home'>
                   <img src={logo} alt="store" className="navbar-brand" />
+               </Link> 
+               <Link to='/Products1'>
+                  <img src={logo2} alt="store" className="navbar-brand" />
                </Link> 
                <ul className="navbar-nav align-items-center">
                  <li className="nav-item ml-5">
@@ -20,7 +24,7 @@ export default class Navbar extends Component {
             
                <ul className="navbar-nav align-items-center">
                  <li className="nav-item ml-5">
-                    <Link to="/" className="nav-link">
+                    <Link to="/Products" className="nav-link">
                        Products
                     </Link>
                  </li>
