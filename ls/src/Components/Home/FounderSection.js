@@ -18,7 +18,7 @@ export default function FounderSection() {
             <p className="founder-bio">
             Bryan Olvera, the founder of The Lazy Shop, is a visionary entrepreneur who has always been passionate about creating a unique shopping experience for his customers. His business philosophy is simple yet effective - providing high-quality products in a relaxed and welcoming environment.
 
-The Lazy Shop is a high-end boutique that offers a curated collection of luxurious home decor, furniture, and accessories. Bryan's attention to detail is reflected in every aspect of the store - from the carefully selected products to the inviting ambiance of the space.
+The Lazy Shop is a high-end boutique that offers a curated &luxurious collection. Bryan's attention to detail is reflected in every aspect of the store - from the carefully selected products to the inviting ambiance of the space.
 
 Bryan's passion for design and aesthetics stems from his background in interior design. He has worked for several high-end clients and has a keen eye for detail. Bryan's expertise in design is evident in the products he curates for The Lazy Shop. Each piece is carefully selected and thoughtfully displayed, creating a cohesive and harmonious shopping experience.
 
