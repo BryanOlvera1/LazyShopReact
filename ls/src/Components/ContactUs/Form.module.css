@@ -73,3 +73,25 @@ background-color: rgba(49, 49, 54, 0.993);
     justify-content: center;
     text-align: center;
   } 
+/* media queries  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .gridBox {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+  }
+}
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .gridBox {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+  }
+ 

@@ -1,5 +1,5 @@
+
 .arrows-container {
-  /* padding-bottom: 50px; */
     background-color:  rgba(49, 49, 54, 0.993);
     text-align: center;
   }
@@ -19,6 +19,29 @@
   }
   .image {
     width: 100vw;
-    height: 250px; 
-    object-fit: cover; /* scale the image to fill the container, maintaining aspect ratio */
+    height: 100vh; 
+    object-fit: cover; 
+  }@media only screen and (max-width: 768px) {
+    .slider {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: space-between;
+    }
+    .image {
+      width: 100vw;
+      height: 250px;
+      object-fit: cover;
+    }
+    .slide {
+      flex: 1 0 auto;
+    }
+  
+    .arrows-container {
+      position: static;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
   }

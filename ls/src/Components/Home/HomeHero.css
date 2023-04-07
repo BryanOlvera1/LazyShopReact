@@ -27,7 +27,6 @@
     width: fit-content;
     opacity: 0.9;}
 
-
     .container__info {
         margin-top: 50px;
         display: flex;
@@ -36,4 +35,133 @@
         align-items: center;
         text-align: center;
       }
+
+      .founder-section {
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .container {
+        background:rgba(116, 116, 122, 0.993);
+       padding-top: 100px;
+      }
       
+      .founder-section {
+        margin-top: 50px;
+        background-color :rgba(49, 49, 54, 0.993);
+        padding: 50px 0;
+      }
+      
+      .founder-card {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+      }
+      .heading{
+        color:white;
+      }
+      .founder-avatar {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-right: 30px;
+      }
+      
+      .founder-name {
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      
+      .founder-title {
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+      
+      .founder-bio {
+        font-size: 1rem;
+        line-height: 1.5;
+        color: rgb(255, 251, 251);
+        max-width: 500px;
+      }
+      
+      .founder-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      
+      .founder-avatar {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 50px;
+      }
+      
+      .founder-info {
+        text-align: left;
+      }
+      
+      .founder-name {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .founder-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      
+      .founder-bio {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      
+
+      /* media query  */
+      @media only screen and (max-width: 768px) {
+        .h2__home {
+          padding: 100px;
+          margin-bottom: 200px;
+        }
+        .container__home {
+          width: 90%;
+          height: 100%;
+          margin-bottom: 100px;
+          max-width: 1000px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        } 
+        .container__info {
+          margin-bottom: 5px;
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+      /* media query */
+
+      @media only screen and (max-width: 768px) {
+        .founder-card {
+          flex-direction: column;
+        }
+        .founder-avatar {
+          width: 100%;
+          margin-bottom: 1em;
+        }
+      }
+    

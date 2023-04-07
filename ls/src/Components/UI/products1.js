@@ -49,7 +49,3 @@ const filteredprodarray = prodarray.filter((product) => {
 };
 
 export default Products1;
-
-// const [searchTerm, setSearchTerm] = useState("");
-// const [searchPrice, setSearchPrice] = useState("");
-

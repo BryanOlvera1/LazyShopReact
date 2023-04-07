@@ -6,7 +6,9 @@ import styled from "styled-components";
 
 
 const PrivacyModal = (props) => {
+        // Define the state variable `open` using the `useState` hook and initialize it to false.
     const [open, setOpen] = React.useState(false);
+    // Define the privacy policy text to be displayed in the modal.
     const policyText = (
         <p className="ptext">
             Thank you for visiting our website and for considering our products. At The Lazy Shop, we value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and disclose your personal information when you visit our website, purchase our products, or communicate with us.
@@ -49,17 +51,19 @@ If you have any questions or concerns about this privacy policy or our privacy p
     );
     return (
         <>
-            <button className="item1" onClick={() => setOpen(true)}>
-                Privacy Policy
-            </button>
-            <Modal classNames={styled.textcontainer} open={open} onClose={() => setOpen(false)} center>
-                <div className="textcontainer">
-                <h2 className="ptext">Privacy Policy</h2>
-                {policyText}
-                </div>
-            </Modal>
+          {/* Display a button with an onClick event listener to set the open state to true */}
+          <button className="item1" onClick={() => setOpen(true)}>
+            Privacy Policy
+          </button>
+          {/* Display a modal with classNames, open state, onClose event listener*/}
+          <Modal classNames={styled.textcontainer} open={open} onClose={() => setOpen(false)} center>
+            {/* Display a div with class name textcontainer and the privacy policy text in header and paragraph elements */}
+            <div className="textcontainer">
+              <h2 className="ptext">Privacy Policy</h2>
+              {policyText}
+            </div>
+          </Modal>
         </>
-    );
-};
-
+      );
+    };
 export default PrivacyModal;

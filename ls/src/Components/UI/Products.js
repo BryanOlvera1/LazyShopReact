@@ -21,7 +21,7 @@ const Products = () => {
     };
     fetchAllProducts();
   }, []);
-
+// Filter the products based on the search term and maximum price
   const filteredProducts = Products.filter((product) => {
     return (
       product.product_title.toLowerCase().includes(searchTerm.toLowerCase()) &&

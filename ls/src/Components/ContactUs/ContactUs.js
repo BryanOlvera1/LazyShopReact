@@ -6,25 +6,29 @@ import Footer from "../Footer/Footer";
 
 export default function ContactUs(){
 
+    // Define state variables for form input fields
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [email, setEmail] = useState("");
     const [comment, setComment] = useState("");
 
+    // Handle form submission
     const handleSubmit = (event) => {
         event.preventDefault();
         // Perform form validation
         if (firstName === "" || lastName === "" || email === "" || comment === "") {
             alert("Please fill in all required fields.");
         } else {
-            // Send form data to server or perform other actions
+            // Pop up alert
             alert("Form submitted successfully.");
         }
     }
 
+    // Render the component
     return (
         <div style={{ backgroundImage:`url(${image1})` }}>
             <Contacthero/>
+            {/* Render the form with input fields and submit button */}
             <form className={styles.gridBox} onSubmit={handleSubmit}>
                 <input type="text" id="firstName" name="firstName" placeholder="First name" aria-label="First name" value={firstName} onChange={(event) => setFirstName(event.target.value)} required/>
                 <input type="text" id="lastName" name="lastName" placeholder="Last name" aria-label="Last name" value={lastName} onChange={(event) => setLastName(event.target.value)} required/>
