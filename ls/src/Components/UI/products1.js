@@ -49,3 +49,5 @@ const filteredprodarray = prodarray.filter((product) => {
 };
 
 export default Products1;
+
+module.exports = Products1;

@@ -55,7 +55,7 @@ If you have any questions or concerns about this privacy policy or our privacy p
           <button className="item1" onClick={() => setOpen(true)}>
             Privacy Policy
           </button>
-          {/* Display a modal with classNames, open state, onClose event listener*/}
+          {/* Display a modal with open state, onClose event listener*/}
           <Modal classNames={styled.textcontainer} open={open} onClose={() => setOpen(false)} center>
             {/* Display a div with class name textcontainer and the privacy policy text in header and paragraph elements */}
             <div className="textcontainer">
